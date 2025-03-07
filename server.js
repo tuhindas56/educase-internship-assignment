@@ -9,5 +9,5 @@ app.use(cors())
 app.use("/", require("./routes/schools"))
 
 app.listen(process.env.PORT || 8080, () => {
-  console.log("Server listening on port 8080")
+  console.log(`Server listening on port ${process.env.PORT}`)
 })
