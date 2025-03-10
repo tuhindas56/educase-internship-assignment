@@ -1,5 +1,5 @@
 const router = require("express").Router()
-const db = require("mysql").createConnection(process.env.DB_URL)
+const db = require("mysql2").createConnection(process.env.DB_URL)
 
 db.connect(function (err) {
 	if (err) throw err
