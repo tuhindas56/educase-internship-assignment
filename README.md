@@ -15,20 +15,15 @@ This is a simple Node.js and Express-based API for managing school data, using M
 1. Clone the repository
 2. Install dependencies:
    ```sh
-   npm install
+   pnpm install
    ```
 3. Create a `.env` file and configure database & server settings:
    ```env
-   PORT=8080
-   DB_URI=<your-db-host>
-   DB_USER=<your-db-user>
-   DB_PASS=<your-db-password>
-   DB_NAME=<your-db-name>
-   DB_PORT=<your-db-port>
+   DB_URL=<your-db-url>
    ```
 4. Start the server:
    ```sh
-   npm start
+   pnpm start
    ```
 
 ## API Endpoints
